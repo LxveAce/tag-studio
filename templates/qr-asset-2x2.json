@@ -1,0 +1,52 @@
+{
+  "name": "QR Asset 2x2",
+  "description": "Asset label with centered QR code and caption text. 2.0 x 2.0 inches. Binds QR to 'URL' data field and caption to 'Label' data field.",
+  "category": "Asset",
+  "machineCompat": [],
+  "doc": {
+    "schemaVersion": 1,
+    "name": "QR Asset 2x2",
+    "page": {
+      "widthIn": 2.0,
+      "heightIn": 2.0
+    },
+    "dpi": 150,
+    "background": "#ffffff",
+    "elements": [
+      {
+        "id": "qr1",
+        "type": "barcode",
+        "x": 0.3,
+        "y": 0.2,
+        "width": 1.4,
+        "height": 1.4,
+        "rotation": 0,
+        "value": "https://example.com/asset/100001",
+        "symbology": "qr",
+        "showText": false,
+        "quietZone": 0.1,
+        "color": "#000000",
+        "dataField": "URL",
+        "name": "QR Code"
+      },
+      {
+        "id": "t1",
+        "type": "text",
+        "x": 0.1,
+        "y": 1.7,
+        "width": 1.8,
+        "height": 0.25,
+        "rotation": 0,
+        "text": "Scan for details",
+        "fontFamily": "Arial",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "fontStyle": "normal",
+        "align": "center",
+        "color": "#000000",
+        "dataField": "Label",
+        "name": "Caption"
+      }
+    ]
+  }
+}

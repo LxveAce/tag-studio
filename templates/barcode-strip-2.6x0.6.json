@@ -1,0 +1,34 @@
+{
+  "name": "Barcode Strip 2.6x0.6",
+  "description": "Generic fixed-width barcode label—a single Code 128B barcode with text. 2.6 x 0.6 inches. Binds barcode to 'Value' data field.",
+  "category": "Barcode",
+  "machineCompat": [],
+  "doc": {
+    "schemaVersion": 1,
+    "name": "Barcode Strip 2.6x0.6",
+    "page": {
+      "widthIn": 2.6,
+      "heightIn": 0.6
+    },
+    "dpi": 150,
+    "background": "#ffffff",
+    "elements": [
+      {
+        "id": "b1",
+        "type": "barcode",
+        "x": 0.05,
+        "y": 0.02,
+        "width": 2.5,
+        "height": 0.56,
+        "rotation": 0,
+        "value": "987654321",
+        "symbology": "code128b",
+        "showText": true,
+        "quietZone": 0.05,
+        "color": "#000000",
+        "dataField": "Value",
+        "name": "Value Barcode"
+      }
+    ]
+  }
+}

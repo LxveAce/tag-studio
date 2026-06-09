@@ -1,0 +1,52 @@
+{
+  "name": "Inventory Bin 2.6x1",
+  "description": "Generic inventory bin label with Code 128B barcode bound to 'BinID' and quantity text bound to 'Qty'. 2.6 x 1.0 inches.",
+  "category": "Inventory",
+  "machineCompat": [],
+  "doc": {
+    "schemaVersion": 1,
+    "name": "Inventory Bin 2.6x1",
+    "page": {
+      "widthIn": 2.6,
+      "heightIn": 1.0
+    },
+    "dpi": 150,
+    "background": "#ffffff",
+    "elements": [
+      {
+        "id": "b1",
+        "type": "barcode",
+        "x": 0.1,
+        "y": 0.15,
+        "width": 1.6,
+        "height": 0.7,
+        "rotation": 0,
+        "value": "BIN001",
+        "symbology": "code128b",
+        "showText": true,
+        "quietZone": 0.05,
+        "color": "#000000",
+        "dataField": "BinID",
+        "name": "Bin Barcode"
+      },
+      {
+        "id": "t1",
+        "type": "text",
+        "x": 1.8,
+        "y": 0.15,
+        "width": 0.7,
+        "height": 0.7,
+        "rotation": 0,
+        "text": "Qty: 0",
+        "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "fontStyle": "normal",
+        "align": "center",
+        "color": "#000000",
+        "dataField": "Qty",
+        "name": "Quantity"
+      }
+    ]
+  }
+}
