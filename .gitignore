@@ -1,0 +1,73 @@
+# Dev environment
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Source code (this is the PUBLIC RELEASE repo — no source)
+src/
+tsconfig.json
+vitest.config.ts
+elektron-vite.config.ts
+vite.config.ts
+*.ts
+*.tsx
+
+# Build artifacts
+out/
+dist/
+build/
+.next/
+
+# IDE & editor config (private development only)
+.vscode/
+.idea/
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Private keys & secrets
+*.pem
+*.key
+*.keystore
+.certs/
+secrets/
+
+# CI/CD (private workflows)
+ci/
+.github/workflows/
+
+# Package manager
+package-lock.json
+package.json
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Testing (dev-only)
+tests/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+.nyc_output/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+*.exe
+*.dmg
+*.rpm
+*.deb
+
+# Editor backups
+*.bak
+*.swp

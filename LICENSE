@@ -1,0 +1,120 @@
+# LxveAce Tag Studio
+## End-User License Agreement (EULA)
+
+**IMPORTANT: PLEASE READ THIS AGREEMENT CAREFULLY BEFORE DOWNLOADING, INSTALLING, OR USING LXVEACE TAG STUDIO.**
+
+### 1. GRANT OF LICENSE
+
+LxveAce ("Licensor") grants you a non-exclusive, non-transferable, limited license to use LxveAce Tag Studio ("Software") on a single designated computer, subject to the terms of this Agreement. This is a license to use the Software, not a sale. Licensor retains all ownership, copyright, and intellectual property rights.
+
+### 2. EVALUATION LICENSE
+
+#### 2.1 Trial Period
+Upon installation, you receive a thirty (30) day evaluation license at no cost. During this period, you may use the Software for evaluation and testing purposes only.
+
+#### 2.2 Expiration
+After the thirty (30) day evaluation period, the Software will enter a limited mode:
+- Canvas editing remains available
+- Export is disabled
+- Machine connectivity is disabled
+- A license key prompt will appear on startup
+
+#### 2.3 License Key Activation
+To restore full functionality, you must obtain a valid Commercial License (Section 3) and activate it with a license key provided by Licensor.
+
+### 3. COMMERCIAL LICENSE
+
+#### 3.1 Purchase & Activation
+To continue using the Software after the evaluation period, you must purchase a Commercial License. Commercial licenses are sold on a per-seat, per-year basis at Licensor's standard rates. Upon purchase, you will receive a license key. Activation is automatic upon entry of a valid key in the Software settings.
+
+#### 3.2 License Tiers
+Licensor offers the following license tiers (subject to change):
+- **Solo**: Single user, single machine
+- **Team**: 2–5 users, unlimited machines
+- **Enterprise**: 6+ users, unlimited machines, priority support
+
+See [lxveace.com/pricing](https://lxveace.com/pricing) for current terms and pricing.
+
+#### 3.3 Renewal
+Commercial Licenses must be renewed annually. Licensor will provide renewal notices at least thirty (30) days before expiration. Failure to renew will cause the Software to revert to limited mode.
+
+### 4. RESTRICTIONS
+
+You may **NOT**:
+- Reverse-engineer, decompile, disassemble, or attempt to derive the source code of the Software
+- Modify, adapt, translate, or create derivative works based on the Software
+- Sublicense, sell, rent, lease, transfer, assign, or lend the Software
+- Remove or alter any copyright, trademark, or proprietary notices
+- Use the Software for any unlawful purpose or in violation of any applicable law
+- Use the Software on more than one computer simultaneously (except as expressly permitted in a Team/Enterprise license)
+- Share your license key with other users
+- Use the Software to provide labeling services to third parties without a separate licensing agreement
+
+### 5. DATA & PRIVACY
+
+#### 5.1 Local Storage
+The Software processes and stores label designs, templates, and data files locally on your computer. Licensor does not access, collect, or transmit this data unless you explicitly authorize export to a machine or cloud service.
+
+#### 5.2 No Telemetry
+The Software contains no telemetry, analytics, or usage tracking features. You have full control over your data.
+
+#### 5.3 Credentials
+Machine credentials (API keys, auth tokens) are stored in your operating system's credential store (Windows DPAPI, macOS Keychain, Linux Secret Service) and are never transmitted to Licensor without your explicit request for support.
+
+### 6. MACHINE ADAPTERS
+
+The Software includes adapters for third-party machines (Trotec, Panduit, Roland, etc.). Use of these adapters is subject to the terms of service and licensing agreements of those vendors. Licensor is not responsible for third-party hardware failures, data loss, or licensing disputes with vendors.
+
+### 7. LIMITATION OF LIABILITY
+
+#### 7.1 Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS" AND WITHOUT WARRANTY, EXPRESS OR IMPLIED. LICENSOR DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+#### 7.2 Limitation
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF DATA, LOSS OF PROFITS, BUSINESS INTERRUPTION, OR PERSONAL INJURY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+#### 7.3 Maximum Liability
+Licensor's total liability under this Agreement shall not exceed the amount paid by you for the Commercial License in the twelve (12) months preceding the claim.
+
+### 8. TERMINATION
+
+#### 8.1 By You
+You may terminate this Agreement at any time by uninstalling the Software and ceasing use. If you have purchased a Commercial License, Licensor may offer a refund under its refund policy (see [lxveace.com/refunds](https://lxveace.com/refunds)).
+
+#### 8.2 By Licensor
+Licensor may terminate this Agreement and your license if:
+- You breach any material term and fail to cure within fifteen (15) days of written notice
+- You use the Software for unlawful purposes
+- You repeatedly export labels for a commercial service without a corresponding Commercial License
+
+Upon termination, all rights to use the Software cease immediately, and you must uninstall it.
+
+### 9. EXPORT COMPLIANCE
+
+The Software may be subject to export control laws, including the U.S. Export Administration Regulations (EAR). You may not export or re-export the Software to prohibited countries or to prohibited persons. By downloading and using the Software, you agree to comply with all applicable export laws.
+
+### 10. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of Delaware, USA, without regard to its conflicts of law principles. You agree to submit to the exclusive jurisdiction of the state and federal courts located in Delaware for any disputes arising from this Agreement.
+
+### 11. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between you and Licensor regarding the Software and supersedes all prior negotiations, representations, and agreements. Any modification of this Agreement must be in writing and signed by both parties.
+
+### 12. SEVERABILITY
+
+If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+
+### 13. CONTACT
+
+If you have questions about this Agreement or the Software, please contact:
+
+**LxveAce Support**
+Email: legal@lxveace.com
+Web: [lxveace.com](https://lxveace.com)
+
+---
+
+**Last Updated: June 2026**
+
+By installing and using LxveAce Tag Studio, you agree to be bound by the terms and conditions of this Agreement.

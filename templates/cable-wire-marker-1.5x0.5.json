@@ -1,0 +1,36 @@
+{
+  "name": "Cable Wire Marker 1.5x0.5",
+  "description": "Compact wire and cable marker label with centered monospace text. 1.5 x 0.5 inches. Binds text to 'Circuit' data field for wrap-around application.",
+  "category": "Cable",
+  "machineCompat": [],
+  "doc": {
+    "schemaVersion": 1,
+    "name": "Cable Wire Marker 1.5x0.5",
+    "page": {
+      "widthIn": 1.5,
+      "heightIn": 0.5
+    },
+    "dpi": 150,
+    "background": "#ffffff",
+    "elements": [
+      {
+        "id": "t1",
+        "type": "text",
+        "x": 0.05,
+        "y": 0.05,
+        "width": 1.4,
+        "height": 0.4,
+        "rotation": 0,
+        "text": "A1-OUT",
+        "fontFamily": "Consolas",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "fontStyle": "normal",
+        "align": "center",
+        "color": "#000000",
+        "dataField": "Circuit",
+        "name": "Circuit Label"
+      }
+    ]
+  }
+}

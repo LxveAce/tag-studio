@@ -1,0 +1,54 @@
+{
+  "name": "Name Badge 3x2",
+  "description": "Generic name badge with centered bold name and subtitle. 3.0 x 2.0 inches. Binds name to 'Name' field and title to 'Title' field.",
+  "category": "Badge",
+  "machineCompat": [],
+  "doc": {
+    "schemaVersion": 1,
+    "name": "Name Badge 3x2",
+    "page": {
+      "widthIn": 3.0,
+      "heightIn": 2.0
+    },
+    "dpi": 150,
+    "background": "#ffffff",
+    "elements": [
+      {
+        "id": "t1",
+        "type": "text",
+        "x": 0.1,
+        "y": 0.65,
+        "width": 2.8,
+        "height": 0.6,
+        "rotation": 0,
+        "text": "Name",
+        "fontFamily": "helvetica",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "fontStyle": "normal",
+        "align": "center",
+        "color": "#000000",
+        "dataField": "Name",
+        "name": "Name"
+      },
+      {
+        "id": "t2",
+        "type": "text",
+        "x": 0.1,
+        "y": 1.35,
+        "width": 2.8,
+        "height": 0.5,
+        "rotation": 0,
+        "text": "Title",
+        "fontFamily": "helvetica",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "align": "center",
+        "color": "#666666",
+        "dataField": "Title",
+        "name": "Title/Subtitle"
+      }
+    ]
+  }
+}

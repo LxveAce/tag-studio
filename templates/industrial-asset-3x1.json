@@ -1,0 +1,85 @@
+{
+  "name": "Industrial Asset 3x1",
+  "description": "Industrial equipment asset label with bold title and Code 128B barcode. 3.0 x 1.0 inches. Binds barcode to 'AssetID' data field and includes ownership text.",
+  "category": "Asset",
+  "machineCompat": [],
+  "doc": {
+    "schemaVersion": 1,
+    "name": "Industrial Asset 3x1",
+    "page": {
+      "widthIn": 3.0,
+      "heightIn": 1.0
+    },
+    "dpi": 150,
+    "background": "#ffffff",
+    "elements": [
+      {
+        "id": "t1",
+        "type": "text",
+        "x": 0.1,
+        "y": 0.05,
+        "width": 2.0,
+        "height": 0.25,
+        "rotation": 0,
+        "text": "ASSET TAG",
+        "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "fontStyle": "normal",
+        "align": "left",
+        "color": "#000000",
+        "name": "Title"
+      },
+      {
+        "id": "b1",
+        "type": "barcode",
+        "x": 0.1,
+        "y": 0.35,
+        "width": 2.0,
+        "height": 0.6,
+        "rotation": 0,
+        "value": "100001",
+        "symbology": "code128b",
+        "showText": true,
+        "quietZone": 0.05,
+        "color": "#000000",
+        "dataField": "AssetID",
+        "name": "Asset Barcode"
+      },
+      {
+        "id": "t2",
+        "type": "text",
+        "x": 2.2,
+        "y": 0.1,
+        "width": 0.7,
+        "height": 0.3,
+        "rotation": 0,
+        "text": "Property of",
+        "fontFamily": "Arial",
+        "fontSize": 8,
+        "fontWeight": "normal",
+        "fontStyle": "italic",
+        "align": "left",
+        "color": "#333333",
+        "name": "Ownership"
+      },
+      {
+        "id": "t3",
+        "type": "text",
+        "x": 2.2,
+        "y": 0.4,
+        "width": 0.7,
+        "height": 0.25,
+        "rotation": 0,
+        "text": "Manufacturing Facility",
+        "fontFamily": "Arial",
+        "fontSize": 7,
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "align": "left",
+        "color": "#000000",
+        "name": "Organization"
+      }
+    ]
+  }
+}

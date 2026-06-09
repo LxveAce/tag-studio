@@ -1,0 +1,22 @@
+{
+  "name": "Showcase — Fonts & Barcodes",
+  "description": "Demonstrates multiple font families plus Code 128B, Code 39, and QR on one label.",
+  "category": "demo",
+  "machineCompat": [],
+  "doc": {
+    "schemaVersion": 1,
+    "name": "Fonts & Barcodes Showcase",
+    "page": { "widthIn": 4, "heightIn": 3 },
+    "dpi": 150,
+    "background": "#ffffff",
+    "elements": [
+      { "id": "title", "type": "text", "x": 0.2, "y": 0.12, "width": 3.6, "height": 0.45, "rotation": 0, "text": "LxveAce Tag Studio", "fontFamily": "Impact", "fontSize": 24, "fontWeight": "bold", "fontStyle": "normal", "align": "left", "color": "#0e1116" },
+      { "id": "sub", "type": "text", "x": 0.2, "y": 0.62, "width": 3.6, "height": 0.3, "rotation": 0, "text": "Multi-font label demo", "fontFamily": "Georgia", "fontSize": 13, "fontWeight": "normal", "fontStyle": "italic", "align": "left", "color": "#6e8efb" },
+      { "id": "mono", "type": "text", "x": 0.2, "y": 0.98, "width": 3.6, "height": 0.25, "rotation": 0, "text": "Consolas · monospace", "fontFamily": "Consolas", "fontSize": 11, "fontWeight": "normal", "fontStyle": "normal", "align": "left", "color": "#1f242d" },
+      { "id": "bc128", "type": "barcode", "x": 0.2, "y": 1.35, "width": 2.3, "height": 0.6, "rotation": 0, "value": "CODE128-DEMO", "symbology": "code128b", "showText": true, "quietZone": 0.1, "color": "#000000" },
+      { "id": "bc39", "type": "barcode", "x": 0.2, "y": 2.15, "width": 2.3, "height": 0.6, "rotation": 0, "value": "CODE39", "symbology": "code39", "showText": true, "quietZone": 0.1, "color": "#000000" },
+      { "id": "qr", "type": "barcode", "x": 2.75, "y": 1.35, "width": 1.05, "height": 1.05, "rotation": 0, "value": "https://lxveace.com", "symbology": "qr", "showText": false, "quietZone": 0.05, "color": "#000000" },
+      { "id": "qrlabel", "type": "text", "x": 2.6, "y": 2.5, "width": 1.4, "height": 0.25, "rotation": 0, "text": "QR → lxveace.com", "fontFamily": "Segoe UI", "fontSize": 9, "fontWeight": "normal", "fontStyle": "normal", "align": "center", "color": "#1f242d" }
+    ]
+  }
+}

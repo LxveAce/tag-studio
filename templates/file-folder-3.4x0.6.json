@@ -1,0 +1,48 @@
+{
+  "name": "File Folder 3.4x0.6",
+  "description": "Generic file folder label with serif title and decorative rule line. 3.4 x 0.6 inches.",
+  "category": "Filing",
+  "machineCompat": [],
+  "doc": {
+    "schemaVersion": 1,
+    "name": "File Folder 3.4x0.6",
+    "page": {
+      "widthIn": 3.4,
+      "heightIn": 0.6
+    },
+    "dpi": 150,
+    "background": "#ffffff",
+    "elements": [
+      {
+        "id": "t1",
+        "type": "text",
+        "x": 0.1,
+        "y": 0.1,
+        "width": 3.2,
+        "height": 0.35,
+        "rotation": 0,
+        "text": "Folder",
+        "fontFamily": "Georgia",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "fontStyle": "normal",
+        "align": "left",
+        "color": "#000000",
+        "name": "Folder Title"
+      },
+      {
+        "id": "l1",
+        "type": "line",
+        "x": 0.1,
+        "y": 0.52,
+        "width": 3.2,
+        "height": 0.01,
+        "rotation": 0,
+        "fill": "#000000",
+        "stroke": "#000000",
+        "strokeWidth": 0.5,
+        "name": "Divider Line"
+      }
+    ]
+  }
+}
