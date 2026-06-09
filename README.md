@@ -13,18 +13,22 @@ LxveAce Tag Studio combines an intuitive drag-and-drop canvas with powerful mult
 ## Key Features
 
 ### Canvas & Design
-- **Drag-drop editor**: Place, rotate, and snap text, barcodes, images, and shapes to a pixel-perfect grid
+- **Drag-drop editor**: Place, rotate, and resize text, barcodes, images, and shapes
+- **Multi-select & marquee**: Shift-click or rubber-band select; move the whole group together
+- **Smart alignment guides**: Snap to other elements' edges and centers, with live guide lines
+- **Align & distribute**: Six-way alignment plus even horizontal/vertical spacing
 - **Rich element library**: Text with 20+ system fonts, Code128B/Code39/QR barcodes, images, and geometric shapes
-- **Smart data binding**: Link elements to CSV columns for instant batch label generation
-- **Undo/redo & keyboard shortcuts**: Professional-grade editing workflow
+- **Smart data binding**: Link elements to CSV or Excel columns for instant batch label generation
+- **Undo/redo, zoom, nudge & keyboard shortcuts**: Professional-grade editing workflow (press `?` for the shortcut list)
 
 ### Export & Integration
-- **Multi-format output**:
-  - **PDF**: Universal vector export (machine-independent)
-  - **Trotec**: Native Ruby import (Speedy series)
-  - **Panduit Easy-Mark Plus**: Proprietary CSV thermal format
-  - **Roland BN-20A**: VersaWorks bridge export
-- **Batch mode**: Merge templates with data rows for 10s–1000s of labels in one run
+- **Multi-format output**: **PDF**, **SVG**, and **PNG** (high-DPI raster), plus per-machine native formats:
+  - **Trotec**: Native Ruby import (vector PDF/SVG)
+  - **Panduit Easy-Mark Plus**: CSV thermal format
+  - **Roland BN-20A**: VersaWorks bridge (PDF/EPS)
+  - **Zebra / thermal**: **ZPL II** jobs for most ZPL-compatible printers
+- **N-up sheet layout**: Tile a label across Letter/A4/Legal/Tabloid with margins and gutters, paginated automatically
+- **Batch mode**: Merge a template with CSV or Excel data rows for 10s–1000s of labels in one run
 
 ### Barcode Support
 - **Code 128B**: Full ASCII 32–126 support (inventory, shipping)
@@ -50,6 +54,7 @@ LxveAce Tag Studio combines an intuitive drag-and-drop canvas with powerful mult
 | **Trotec** | Speedy 100/360 | Ruby import (vector) | Stable |
 | **Panduit** | Easy-Mark Plus | Proprietary CSV (thermal) | Stable |
 | **Roland** | BN-20A | VersaWorks (vector/raster) | Stable |
+| **Zebra / generic** | ZD/GK/GX/ZT & ZPL-compatible | ZPL II job | Beta (verify on device) |
 
 *Need a different machine? The adapter system is extensible — contact us for custom support.*
 
@@ -144,7 +149,7 @@ Please see [SECURITY.md](./SECURITY.md) for responsible disclosure instructions.
 
 ## License
 
-LxveAce Tag Studio is a proprietary, commercial product. Use of the software is governed by the License Agreement included in this distribution. A 30-day evaluation license is included; after evaluation, a commercial license is required for continued use.
+LxveAce Tag Studio is a proprietary, commercial product. Use of the software is governed by the License Agreement included in this distribution. A 14-day evaluation is included; after the trial, a license key is required to remove the export watermark (designing remains available). Licenses are verified offline against an embedded signing key — no account or server needed.
 
 See [LICENSE](./LICENSE) for full terms.
 
