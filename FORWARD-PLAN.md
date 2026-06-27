@@ -76,3 +76,18 @@
 - Are the Trotec/Panduit/Roland export pipelines correct? (only thermal/Zebra internals reviewed)
 - The CODE recon report contained only placeholder values ("test"); no static code-analysis findings were available to fold in.
 - Unconfirmed: contents of private `Barcode-Tag-Creation-Source`; whether `tag-list-2`'s uncommitted files relate to Tag Studio.
+
+
+<!-- DEEP-RESEARCH-NOTE (added 2026-06-27, for when Tag Studio work begins) -->
+## Deep research to do BEFORE building (Tag Studio)
+
+When we pick up Tag Studio, do deep research first into:
+- **Graphic-design software** internals (layout/typography/auto-fit engines) and **industrial tag
+  software** (e.g. Panduit's Easy-Mark Plus and comparable label/tag tools) to streamline tag
+  generation and match how the machines expect data.
+- **Batch tag generation** for large datasets: generate many tags efficiently from one dataset.
+- **Variable-length data within a single batch:** rows in the same batch can have different
+  character counts. Add **smart auto-fit logic** that scales/wraps/condenses each tag's text to fit
+  the predetermined size/spec for its template **per tag**, while still batch-generating the whole
+  set (no manual per-tag fiddling). Define the fit algorithm (max font, min font floor, condense vs
+  wrap vs shrink-to-fit, and a hard "won't fit / flag for review" path) as part of the spec.
