@@ -13,6 +13,23 @@ This repository is the **public release home** for Tag Studio: signed installers
 
 > Project site: **[experttags.com](https://experttags.com)**
 
+<!-- STATUS-ROADMAP:START -->
+## Status & Roadmap
+
+**Status:** Shipping and healthy at its core — the latest release is **v0.3.1** (2026-06-09) with a working signed-installer + in-app update pipeline — while a few cross-surface consistency items are being tidied up.
+
+**In progress / known issues:**
+- Aligning the licensing/pricing message so the repo, the installer, and [experttags.com](https://experttags.com) all tell the same story.
+- Correcting a stale `version.json` so the committed manifest always matches the released build.
+- Verifying the Windows installer trust chain (Authenticode signature + published `latest.yml` hash) and making that check a standing release gate.
+
+**Roadmap:**
+- Release-sync workflow (private source → public release) to bring the pending print-correctness fixes (landscape clipping, dropped-PDF rotation, SVG text sizing) to released builds.
+- Auto-stamp `version.json` from the build at release time so it can no longer drift.
+- Per-release templates-sync checklist to keep the bundled template library in step.
+- A single authoritative licensing/pricing statement shared by the repo, installer, and site.
+<!-- STATUS-ROADMAP:END -->
+
 ## Key Features
 
 ### Canvas & Design
