@@ -1,0 +1,84 @@
+{
+  "name": "Name Badge 3.5x2.25",
+  "description": "Generic name badge with large centered display name, subtitle role, organization line, and rectangle border. 3.5 x 2.25 inches.",
+  "category": "ID Badge",
+  "machineCompat": [],
+  "doc": {
+    "schemaVersion": 1,
+    "name": "Name Badge 3.5x2.25",
+    "page": {
+      "widthIn": 3.5,
+      "heightIn": 2.25
+    },
+    "dpi": 150,
+    "background": "#ffffff",
+    "elements": [
+      {
+        "id": "r1",
+        "type": "rect",
+        "x": 0.05,
+        "y": 0.05,
+        "width": 3.4,
+        "height": 2.15,
+        "rotation": 0,
+        "fill": "#ffffff",
+        "stroke": "#000000",
+        "strokeWidth": 1.5,
+        "name": "Border"
+      },
+      {
+        "id": "t1",
+        "type": "text",
+        "x": 0.15,
+        "y": 0.4,
+        "width": 3.2,
+        "height": 0.8,
+        "rotation": 0,
+        "text": "Name",
+        "fontFamily": "Impact",
+        "fontSize": 36,
+        "fontWeight": "bold",
+        "fontStyle": "normal",
+        "align": "center",
+        "color": "#000000",
+        "dataField": "Name",
+        "name": "Display Name"
+      },
+      {
+        "id": "t2",
+        "type": "text",
+        "x": 0.15,
+        "y": 1.25,
+        "width": 3.2,
+        "height": 0.35,
+        "rotation": 0,
+        "text": "Title",
+        "fontFamily": "Arial",
+        "fontSize": 14,
+        "fontWeight": "normal",
+        "fontStyle": "italic",
+        "align": "center",
+        "color": "#333333",
+        "dataField": "Role",
+        "name": "Role Subtitle"
+      },
+      {
+        "id": "t3",
+        "type": "text",
+        "x": 0.15,
+        "y": 1.7,
+        "width": 3.2,
+        "height": 0.25,
+        "rotation": 0,
+        "text": "Organization",
+        "fontFamily": "Segoe UI",
+        "fontSize": 10,
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "align": "center",
+        "color": "#666666",
+        "name": "Organization"
+      }
+    ]
+  }
+}
