@@ -5,6 +5,8 @@
 [![Platform](https://img.shields.io/badge/Windows-10%2B-0078D4.svg)](#system-requirements)
 [![Stack](https://img.shields.io/badge/Electron%20%2B%20React-2b2b2b.svg)](#built-with)
 
+> Provided **as is**, without warranty; you use it at your own risk. See [DISCLAIMER.md](DISCLAIMER.md).
+
 **An industrial-grade label & tag design studio that prints to anything.**
 
 LxveAce Tag Studio pairs a drag-and-drop design canvas with multi-machine export. Design a label once, then send it to Trotec laser engravers, Panduit thermal printers, Roland vinyl cutters, and ZPL-compatible thermal printers — or export to standard PDF, SVG, and PNG — without leaving the editor.
