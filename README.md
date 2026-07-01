@@ -62,7 +62,7 @@ This repository is the **public release home** for Tag Studio: signed installers
 ### Templates
 - **Bundled library** of common label sizes shipped in [`templates/`](./templates)
 - **Category-tagged**: Asset, Inventory, Shipping, Cable, Barcode, Retail, Filing, Badge / ID Badge, and a fonts-and-barcodes demo
-- **JSON format**: templates are plain `.json` documents (page size in inches, DPI, and an element list) — copy and adapt them or add your own
+- **JSON format**: each template is a `.json` file that wraps the design under a `doc` object — top-level `name`, `description`, `category`, and `machineCompat`, with `doc` holding `schemaVersion`, `page` (`widthIn`/`heightIn`), `dpi`, `background`, and an `elements` array — copy and adapt them or add your own
 
 ### Privacy & Credentials
 - **OS credential storage**: machine authentication tokens are kept in the OS credential store (Windows DPAPI / Credential Manager), never in plaintext config files
@@ -134,7 +134,7 @@ The [`templates/`](./templates) folder ships ready-to-use layouts, including:
 | Name Badge | 3.5 × 2.25 | ID Badge |
 | Fonts & Barcodes Showcase | 4 × 3 | Demo |
 
-Each template is a JSON document with a page size, DPI, and an `elements` array. Duplicate one and edit it to create your own.
+Each template is a JSON file whose design lives under a `doc` object (`doc.page` in inches, `doc.dpi`, and a `doc.elements` array), alongside top-level `name`, `description`, `category`, and `machineCompat` fields. Duplicate one and edit it to create your own.
 
 ## FAQ
 
