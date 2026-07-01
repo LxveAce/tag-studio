@@ -6,8 +6,8 @@ We maintain security updates for the following versions:
 
 | Version | Status | Support Until |
 |---------|--------|---------------|
-| 0.2.x   | Current | Q2 2027 |
-| 0.1.x   | Legacy | Q4 2026 |
+| 0.3.x   | Current | Q2 2027 |
+| 0.2.x   | Legacy | Q4 2026 |
 
 Earlier versions are no longer supported and should be upgraded immediately.
 
