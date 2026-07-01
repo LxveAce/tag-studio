@@ -158,7 +158,7 @@ See [SECURITY.md](./SECURITY.md) for responsible-disclosure instructions.
 
 ## License
 
-LxveAce Tag Studio is proprietary, commercial software. Use is governed by the [End-User License Agreement](./LICENSE). A 30-day evaluation is included; after the trial the app enters a limited mode where editing remains available but export and machine connectivity require a valid license key. License keys are activated in-app — see the EULA for full terms.
+LxveAce Tag Studio is proprietary software governed by the [End-User License Agreement](./LICENSE). **It is currently free to use** — no license key or payment is required today, and there is no account, subscription, or cloud dependency. A paid/licensed tier may be introduced in a future release; if and when it is, the terms will be stated here, in the EULA, and on [experttags.com](https://experttags.com). The proprietary EULA (not open source) is what lets that option stay open.
 
 ## Built With
 
