@@ -1,5 +1,10 @@
 # Label & Tag Generation — Engineering Notes
 
+> **Scope:** General, legacy-lineage engineering lore distilled from the earlier Python +
+> ReportLab barcode generators — **not** a description of Tag Studio's current runtime, which is
+> Electron / React / Konva / TypeScript. The Python/ReportLab/Code 128 details below are reusable
+> label-engineering principles, not the app's implementation stack.
+
 General, reusable lessons for building barcode label/tag generators (Python + ReportLab +
 Code 128). Project-agnostic — no job/customer specifics. Distilled from real production use.
 
