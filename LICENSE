@@ -7,25 +7,21 @@
 
 LxveAce ("Licensor") grants you a non-exclusive, non-transferable, limited license to use LxveAce Tag Studio ("Software") on a single designated computer, subject to the terms of this Agreement. This is a license to use the Software, not a sale. Licensor retains all ownership, copyright, and intellectual property rights.
 
-### 2. EVALUATION LICENSE
+### 2. LICENSE COST — CURRENTLY FREE
 
-#### 2.1 Trial Period
-Upon installation, you receive a thirty (30) day evaluation license at no cost. During this period, you may use the Software for evaluation and testing purposes only.
+#### 2.1 Free to use today
+The Software is **currently free to use in full**, with no time limit, no evaluation period, no license key, and no payment required. All features (including export and machine connectivity) are available at no cost. There is no account, subscription, or cloud dependency.
 
-#### 2.2 Expiration
-After the thirty (30) day evaluation period, the Software will enter a limited mode:
-- Canvas editing remains available
-- Export is disabled
-- Machine connectivity is disabled
-- A license key prompt will appear on startup
+#### 2.2 Future paid tier (reserved, not currently in effect)
+Licensor reserves the right to introduce a paid Commercial License tier (Section 3) in a future release. The time-limited-evaluation and limited-mode terms in Section 3 are **reserved for that future tier and are NOT in effect today.** If and when a paid tier is introduced, the terms will be stated here, in this Agreement, and on [experttags.com](https://experttags.com) before they take effect. Using the Software today does not obligate you to any payment.
 
-#### 2.3 License Key Activation
-To restore full functionality, you must obtain a valid Commercial License (Section 3) and activate it with a license key provided by Licensor.
+### 3. COMMERCIAL LICENSE (RESERVED — NOT CURRENTLY REQUIRED)
 
-### 3. COMMERCIAL LICENSE
+> The Software is free today (Section 2). This section describes a possible future paid tier and does not
+> apply to current use — no purchase is required to use the Software now.
 
 #### 3.1 Purchase & Activation
-To continue using the Software after the evaluation period, you must purchase a Commercial License. Commercial licenses are sold on a per-seat, per-year basis at Licensor's standard rates. Upon purchase, you will receive a license key. Activation is automatic upon entry of a valid key in the Software settings.
+If a paid tier is introduced, a Commercial License would be sold on a per-seat, per-year basis at Licensor's standard rates. Upon purchase, you would receive a license key; activation is automatic upon entry of a valid key in the Software settings.
 
 #### 3.2 License Tiers
 Licensor offers the following license tiers (subject to change):
@@ -33,10 +29,10 @@ Licensor offers the following license tiers (subject to change):
 - **Team**: 2–5 users, unlimited machines
 - **Enterprise**: 6+ users, unlimited machines, priority support
 
-See [lxveace.com/pricing](https://lxveace.com/pricing) for current terms and pricing.
+If and when a paid tier launches, terms and pricing will be published at [experttags.com](https://experttags.com).
 
 #### 3.3 Renewal
-Commercial Licenses must be renewed annually. Licensor will provide renewal notices at least thirty (30) days before expiration. Failure to renew will cause the Software to revert to limited mode.
+Any future Commercial License would be renewed annually, with renewal notices at least thirty (30) days before expiration. (Not applicable while the Software is free.)
 
 ### 4. RESTRICTIONS
 
@@ -79,13 +75,13 @@ Licensor's total liability under this Agreement shall not exceed the amount paid
 ### 8. TERMINATION
 
 #### 8.1 By You
-You may terminate this Agreement at any time by uninstalling the Software and ceasing use. If you have purchased a Commercial License, Licensor may offer a refund under its refund policy (see [lxveace.com/refunds](https://lxveace.com/refunds)).
+You may terminate this Agreement at any time by uninstalling the Software and ceasing use. If a paid tier exists and you have purchased a Commercial License, Licensor may offer a refund under the refund policy published at [experttags.com](https://experttags.com).
 
 #### 8.2 By Licensor
 Licensor may terminate this Agreement and your license if:
 - You breach any material term and fail to cure within fifteen (15) days of written notice
 - You use the Software for unlawful purposes
-- You repeatedly export labels for a commercial service without a corresponding Commercial License
+- (Only if a paid tier is in effect) you repeatedly export labels for a commercial service without a corresponding Commercial License
 
 Upon termination, all rights to use the Software cease immediately, and you must uninstall it.
 
