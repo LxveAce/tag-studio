@@ -17,7 +17,7 @@ Earlier versions are no longer supported and should be upgraded immediately.
 
 Instead, please report security issues to:
 
-**Email**: security@lxveace.com
+**Email**: LxveLabs@proton.me
 
 **Include**:
 1. A clear description of the vulnerability
@@ -112,7 +112,7 @@ As an Electron app, Tag Studio relies on Chromium's JavaScript engine. Chromium 
 
 Once a vulnerability is reported and confirmed, we follow a responsible disclosure timeline:
 
-1. **Day 0**: Vulnerability is reported to security@lxveace.com
+1. **Day 0**: Vulnerability is reported to LxveLabs@proton.me
 2. **Day 1**: Licensor acknowledges receipt and begins investigation
 3. **Day 7**: Licensor provides an estimated fix timeline
 4. **Day 14**: A patch is released (critical issues) or scheduled for the next release
@@ -140,8 +140,8 @@ LxveAce Tag Studio is a desktop application and is not subject to PCI-DSS, HIPAA
 
 If you have security questions or concerns, please contact:
 
-**Email**: security@lxveace.com
-**Web**: [lxveace.com/security](https://lxveace.com/security)
+**Email**: LxveLabs@proton.me
+**Web**: [lxvelabs.com](https://lxvelabs.com)
 
 ---
 

@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Security vulnerability (do not open a public issue)
     url: https://github.com/LxveAce/tag-studio/blob/main/SECURITY.md
-    about: Report security issues privately per SECURITY.md — email security@lxveace.com. Never file them here.
+    about: Report security issues privately per SECURITY.md — email LxveLabs@proton.me. Never file them here.
   - name: Questions & help
     url: https://discord.gg/lxvelabs
     about: Ask questions, get help, or talk through your labeling workflow on the LxveAce Discord.
