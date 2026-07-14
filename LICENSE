@@ -1,116 +1,21 @@
-# LxveAce Tag Studio
-## End-User License Agreement (EULA)
+MIT License
 
-**IMPORTANT: PLEASE READ THIS AGREEMENT CAREFULLY BEFORE DOWNLOADING, INSTALLING, OR USING LXVEACE TAG STUDIO.**
+Copyright (c) 2026 LxveAce
 
-### 1. GRANT OF LICENSE
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-LxveAce ("Licensor") grants you a non-exclusive, non-transferable, limited license to use LxveAce Tag Studio ("Software") on a single designated computer, subject to the terms of this Agreement. This is a license to use the Software, not a sale. Licensor retains all ownership, copyright, and intellectual property rights.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### 2. LICENSE COST — CURRENTLY FREE
-
-#### 2.1 Free to use today
-The Software is **currently free to use in full**, with no time limit, no evaluation period, no license key, and no payment required. All features (including export and machine connectivity) are available at no cost. There is no account, subscription, or cloud dependency.
-
-#### 2.2 Future paid tier (reserved, not currently in effect)
-Licensor reserves the right to introduce a paid Commercial License tier (Section 3) in a future release. The time-limited-evaluation and limited-mode terms in Section 3 are **reserved for that future tier and are NOT in effect today.** If and when a paid tier is introduced, the terms will be stated here, in this Agreement, and on [experttags.com](https://experttags.com) before they take effect. Using the Software today does not obligate you to any payment.
-
-### 3. COMMERCIAL LICENSE (RESERVED — NOT CURRENTLY REQUIRED)
-
-> The Software is free today (Section 2). This section describes a possible future paid tier and does not
-> apply to current use — no purchase is required to use the Software now.
-
-#### 3.1 Purchase & Activation
-If a paid tier is introduced, a Commercial License would be sold on a per-seat, per-year basis at Licensor's standard rates. Upon purchase, you would receive a license key; activation is automatic upon entry of a valid key in the Software settings.
-
-#### 3.2 License Tiers
-Licensor offers the following license tiers (subject to change):
-- **Solo**: Single user, single machine
-- **Team**: 2–5 users, unlimited machines
-- **Enterprise**: 6+ users, unlimited machines, priority support
-
-If and when a paid tier launches, terms and pricing will be published at [experttags.com](https://experttags.com).
-
-#### 3.3 Renewal
-Any future Commercial License would be renewed annually, with renewal notices at least thirty (30) days before expiration. (Not applicable while the Software is free.)
-
-### 4. RESTRICTIONS
-
-You may **NOT**:
-- Reverse-engineer, decompile, disassemble, or attempt to derive the source code of the Software
-- Modify, adapt, translate, or create derivative works based on the Software
-- Sublicense, sell, rent, lease, transfer, assign, or lend the Software
-- Remove or alter any copyright, trademark, or proprietary notices
-- Use the Software for any unlawful purpose or in violation of any applicable law
-- Use the Software on more than one computer simultaneously (except as expressly permitted in a Team/Enterprise license)
-- Share your license key with other users
-- Use the Software to provide labeling services to third parties without a separate licensing agreement
-
-### 5. DATA & PRIVACY
-
-#### 5.1 Local Storage
-The Software processes and stores label designs, templates, and data files locally on your computer. Licensor does not access, collect, or transmit this data unless you explicitly authorize export to a machine or cloud service.
-
-#### 5.2 No Telemetry
-The Software contains no telemetry, analytics, or usage tracking features. You have full control over your data.
-
-#### 5.3 Credentials
-Machine credentials (API keys, auth tokens) are stored in your operating system's credential store (Windows DPAPI, macOS Keychain, Linux Secret Service) and are never transmitted to Licensor without your explicit request for support.
-
-### 6. MACHINE ADAPTERS
-
-The Software includes adapters for third-party machines (Trotec, Panduit, Roland, etc.). Use of these adapters is subject to the terms of service and licensing agreements of those vendors. Licensor is not responsible for third-party hardware failures, data loss, or licensing disputes with vendors.
-
-### 7. LIMITATION OF LIABILITY
-
-#### 7.1 Disclaimer
-THE SOFTWARE IS PROVIDED "AS IS" AND WITHOUT WARRANTY, EXPRESS OR IMPLIED. LICENSOR DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
-
-#### 7.2 Limitation
-IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF DATA, LOSS OF PROFITS, BUSINESS INTERRUPTION, OR PERSONAL INJURY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
-#### 7.3 Maximum Liability
-Licensor's total liability under this Agreement shall not exceed the amount paid by you for the Commercial License in the twelve (12) months preceding the claim.
-
-### 8. TERMINATION
-
-#### 8.1 By You
-You may terminate this Agreement at any time by uninstalling the Software and ceasing use. If a paid tier exists and you have purchased a Commercial License, Licensor may offer a refund under the refund policy published at [experttags.com](https://experttags.com).
-
-#### 8.2 By Licensor
-Licensor may terminate this Agreement and your license if:
-- You breach any material term and fail to cure within fifteen (15) days of written notice
-- You use the Software for unlawful purposes
-- (Only if a paid tier is in effect) you repeatedly export labels for a commercial service without a corresponding Commercial License
-
-Upon termination, all rights to use the Software cease immediately, and you must uninstall it.
-
-### 9. EXPORT COMPLIANCE
-
-The Software may be subject to export control laws, including the U.S. Export Administration Regulations (EAR). You may not export or re-export the Software to prohibited countries or to prohibited persons. By downloading and using the Software, you agree to comply with all applicable export laws.
-
-### 10. GOVERNING LAW
-
-This Agreement shall be governed by and construed in accordance with the laws of Delaware, USA, without regard to its conflicts of law principles. You agree to submit to the exclusive jurisdiction of the state and federal courts located in Delaware for any disputes arising from this Agreement.
-
-### 11. ENTIRE AGREEMENT
-
-This Agreement constitutes the entire agreement between you and Licensor regarding the Software and supersedes all prior negotiations, representations, and agreements. Any modification of this Agreement must be in writing and signed by both parties.
-
-### 12. SEVERABILITY
-
-If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
-
-### 13. CONTACT
-
-If you have questions about this Agreement or the Software, please contact:
-
-**LxveAce Support**
-Email: LxveLabs@proton.me
-Web: [experttags.com](https://experttags.com)
-
----
-
-**Last Updated: June 2026**
-
-By installing and using LxveAce Tag Studio, you agree to be bound by the terms and conditions of this Agreement.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

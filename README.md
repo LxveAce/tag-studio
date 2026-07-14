@@ -4,7 +4,7 @@ An industrial label and tag designer that prints to almost anything. **Design on
 
 [![Release](https://img.shields.io/github/v/release/LxveAce/tag-studio?label=release&color=blue)](https://github.com/LxveAce/tag-studio/releases)
 [![Downloads](https://img.shields.io/github/downloads/LxveAce/tag-studio/total?label=downloads&color=success)](https://github.com/LxveAce/tag-studio/releases)
-[![License](https://img.shields.io/badge/license-Proprietary-red)](#license)
+[![License](https://img.shields.io/badge/license-MIT-green)](#license)
 [![Platform](https://img.shields.io/badge/Windows-10%2B-0078D4)](#system-requirements)
 
 **[Download](#downloads)** · **[Website](https://experttags.com)** · **[Templates](#templates)** · **[Security](./SECURITY.md)** · **[Discord](https://discord.gg/lxvelabs)**
@@ -15,7 +15,7 @@ An industrial label and tag designer that prints to almost anything. **Design on
 
 Draw a label once on a drag-and-drop canvas, then send it straight to the machine that cuts, prints, or engraves it: Trotec lasers, Panduit thermal printers, Roland vinyl cutters, and any ZPL-compatible thermal printer. Or export plain PDF, SVG, and PNG that most other hardware can read directly. No round-tripping a design through three other programs to get it onto a tag.
 
-This repo is the public release home for Tag Studio: the Windows installer (on [Releases](https://github.com/LxveAce/tag-studio/releases)), the bundled template library, the license, and the security policy. The app itself is closed source.
+This repo is the public release home for Tag Studio: the Windows installer (on [Releases](https://github.com/LxveAce/tag-studio/releases)), the bundled template library, the license, and the security policy. Tag Studio is **free and MIT-licensed**.
 
 Project site: **[experttags.com](https://experttags.com)**
 
@@ -25,7 +25,7 @@ Project site: **[experttags.com](https://experttags.com)**
 **Latest release:** v0.3.1 (2026-06-09). The build ships as a Windows installer with an in-app update pipeline (`latest.yml`). Release notes live on the [Releases](https://github.com/LxveAce/tag-studio/releases) page.
 
 **Being tidied up:**
-- Keeping one licensing/pricing message across the installer and [experttags.com](https://experttags.com). The repo already agrees with itself (LICENSE and this README both say "free to use today"); this is about the external surfaces catching up.
+- Making sure [experttags.com](https://experttags.com) reflects the **MIT / free** license consistently with the installer and this repo.
 - Verifying the Windows installer trust chain — the Authenticode signature plus the published `latest.yml` hash — and making that a standing check before every release.
 
 **Next:**
@@ -151,7 +151,7 @@ Designs and data stay on your machine: no telemetry, no cloud upload, nothing ph
 
 ## License
 
-LxveAce Tag Studio is proprietary software governed by the [End-User License Agreement](./LICENSE). **It's free to use today** — no license key, payment, account, subscription, or cloud dependency. A paid tier may arrive in a future release; if it does, the terms will be stated here, in the EULA, and on [experttags.com](https://experttags.com). Keeping the EULA proprietary (not open source) is what leaves that option open.
+LxveAce Tag Studio is released under the [MIT License](./LICENSE). **It's free to use** — no license key, payment, account, subscription, or cloud dependency, and MIT-permissive (use, modify, and redistribute freely). Product info lives at [experttags.com](https://experttags.com).
 
 ## Built with
 
