@@ -67,7 +67,7 @@ Tag Studio runs as a single Electron process without OS-level sandboxing. This i
 - OS credential store access must be unrestricted
 - Template and document I/O must be unrestricted
 
-However, the IPC bridge between the main and renderer processes enforces strict access control — the renderer cannot directly access the filesystem, credential store, or machine adapters.
+However, the IPC bridge between the main and renderer processes enforces strict access control: the renderer cannot directly access the filesystem, credential store, or machine adapters.
 
 ## Security Best Practices for Users
 
@@ -77,7 +77,7 @@ However, the IPC bridge between the main and renderer processes enforces strict 
 3. Keep your operating system and all software up to date
 
 ### Machine Setup
-1. Store machine credentials in the OS credential store (use Tag Studio's credential dialog — never paste into config files)
+1. Store machine credentials in the OS credential store (use Tag Studio's credential dialog, never paste into config files)
 2. Restrict access to your computer (use OS login credentials, enable disk encryption)
 3. Regularly review which machines are configured in Tag Studio's settings
 
@@ -98,7 +98,7 @@ Tag Studio integrates with third-party labeling machines via adapters. Security 
 - Network security (USB, Ethernet, WiFi)
 - The user's network environment
 
-We cannot guarantee the security of vendor APIs or firmware — report issues to the vendor directly.
+We cannot guarantee the security of vendor APIs or firmware, so report issues to the vendor directly.
 
 ### PDF Export
 Exported PDFs may embed fonts and images. Ensure that:

@@ -13,7 +13,7 @@ An industrial label and tag designer that prints to almost anything. **Design on
 
 ---
 
-Draw a label once on a drag-and-drop canvas, then send it straight to the machine that cuts, prints, or engraves it: Trotec lasers, Panduit thermal printers, Roland vinyl cutters, and any ZPL-compatible thermal printer. Or export plain PDF, SVG, and PNG that most other hardware can read directly. No round-tripping a design through three other programs to get it onto a tag.
+Draw a label once on a drag-and-drop canvas, then send it straight to the machine that cuts, prints, or engraves it: Trotec lasers, Panduit thermal printers, Roland vinyl cutters, and any ZPL-compatible thermal printer. Or export plain PDF, SVG, and PNG that most other hardware can read directly. You don't have to route a design through three other programs to get it onto a tag.
 
 This repo is the public release home for Tag Studio: the Windows installer (on [Releases](https://github.com/LxveAce/tag-studio/releases)), the bundled template library, the license, and the security policy. Tag Studio is **free and MIT-licensed**.
 
@@ -83,7 +83,7 @@ Installers are published on every release. Grab the current build from the **[Gi
 
 - **Windows:** `LxveAce-Tag-Studio-0.3.1-Windows-Setup.exe`
 
-Each release ships the Windows installer plus a `latest.yml` manifest for in-app updates. On first run, Windows may flag an unrecognized publisher — check the installer's signature/publisher before you run it (see [SECURITY.md](./SECURITY.md)).
+Each release ships the Windows installer plus a `latest.yml` manifest for in-app updates. On first run, Windows may flag an unrecognized publisher. Check the installer's signature/publisher before you run it (see [SECURITY.md](./SECURITY.md)).
 
 ### System requirements
 
@@ -132,17 +132,17 @@ Each template is a `.json` file: top-level `name`, `description`, `category`, an
 
 **How do I generate many labels from a spreadsheet?** Open a template, choose **Export with Data**, load your CSV or Excel file, map columns to elements, select rows, and export a multi-page PDF or machine format with one label per row.
 
-**Are my designs and data private?** Yes. Documents are JSON files stored on your computer — Tag Studio doesn't upload them. Machine credentials go in the OS credential store, never in plaintext.
+**Are my designs and data private?** Yes. Documents are JSON files stored on your computer, and Tag Studio doesn't upload them. Machine credentials go in the OS credential store, never in plaintext.
 
-**Does it work offline?** Yes — editing, templates, fonts, and export all run locally. The app reaches out only to check for updates or when you export to a machine you've authorized.
+**Does it work offline?** Yes. Editing, templates, fonts, and export all run locally. The app reaches out only to check for updates or when you export to a machine you've authorized.
 
 **How do I update?** Tag Studio checks for new releases and can install updates in the background. You can also pull the latest installer from the Releases page any time.
 
-**I found a security issue — who do I contact?** See [SECURITY.md](./SECURITY.md) for the responsible-disclosure process. Email LxveLabs@proton.me — don't open a public issue.
+**I found a security issue. Who do I contact?** See [SECURITY.md](./SECURITY.md) for the responsible-disclosure process. Email LxveLabs@proton.me instead of opening a public issue.
 
 ## Security
 
-Designs and data stay on your machine: no telemetry, no cloud upload, nothing phoned home. Machine credentials live in the Windows credential store (DPAPI), never in plaintext. The full posture — credential handling, code integrity, the IPC boundary, and the disclosure timeline — is in [SECURITY.md](./SECURITY.md). Report vulnerabilities privately to LxveLabs@proton.me rather than a public issue.
+Designs and data stay on your machine: no telemetry, no cloud upload, nothing phoned home. Machine credentials live in the Windows credential store (DPAPI), never in plaintext. [SECURITY.md](./SECURITY.md) covers the full posture: credential handling, code integrity, the IPC boundary, and the disclosure timeline. Report vulnerabilities privately to LxveLabs@proton.me rather than a public issue.
 
 ## Learn more
 
@@ -151,7 +151,7 @@ Designs and data stay on your machine: no telemetry, no cloud upload, nothing ph
 
 ## License
 
-LxveAce Tag Studio is released under the [MIT License](./LICENSE). **It's free to use** — no license key, payment, account, subscription, or cloud dependency, and MIT-permissive (use, modify, and redistribute freely). Product info lives at [experttags.com](https://experttags.com).
+LxveAce Tag Studio is released under the [MIT License](./LICENSE). It's free to use: no license key, payment, account, subscription, or cloud dependency. Because it's MIT-licensed, you can use, modify, and redistribute it freely. Product info is at [experttags.com](https://experttags.com).
 
 ## Built with
 

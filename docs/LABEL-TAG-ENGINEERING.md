@@ -1,19 +1,19 @@
-# Label & Tag Generation — Engineering Notes
+# Label & Tag Generation: Engineering Notes
 
 > **Scope:** General, legacy-lineage engineering lore distilled from the earlier Python +
-> ReportLab barcode generators — **not** a description of Tag Studio's current runtime, which is
+> ReportLab barcode generators. This is **not** a description of Tag Studio's current runtime, which is
 > Electron / React / Konva / TypeScript. The Python/ReportLab/Code 128 details below are reusable
 > label-engineering principles, not the app's implementation stack.
 
 General, reusable lessons for building barcode label/tag generators (Python + ReportLab +
-Code 128). Project-agnostic — no job/customer specifics. Distilled from real production use.
+Code 128). Project-agnostic, with no job/customer specifics. Distilled from real production use.
 
 ## Output format
-- **Vector PDF** (ReportLab) renders text and bars as true vectors → crisp at any print size.
+- **Vector PDF** (ReportLab) renders text and bars as true vectors, so they stay crisp at any print size.
 - **One label per page = one physical tag.** Plays well with thermal roll stock + contour/cut.
 - Tell users to **print at Actual size / 100%** (never "fit to page"), or every measurement drifts.
 - For thermal printers (Panduit, Zebra, etc.) also consider a **CSV export** for their own software
-  (e.g. Easy-Mark Plus) in addition to direct PDF — different shops want different inputs.
+  (e.g. Easy-Mark Plus) in addition to direct PDF. Different shops want different inputs.
 
 ## Coordinates & layout
 - Work in **inches**, convert to points (`×72`) only at the drawing edge.
@@ -24,17 +24,17 @@ Code 128). Project-agnostic — no job/customer specifics. Distilled from real p
   visibly diverge.
 
 ## Fonts
-- Prefer the **14 standard PostScript fonts** (Helvetica / Helvetica-Bold …) — guaranteed rendering,
-  no embedding surprises. **Validate** a requested font and fall back gracefully (don't crash on
+- Prefer the **14 standard PostScript fonts** (Helvetica / Helvetica-Bold …). They render reliably,
+  with no embedding surprises. **Validate** a requested font and fall back gracefully (don't crash on
   "Arial"); map spec wording like "Sans, Black, Bold" to the closest standard face.
-- Helvetica **cap height ≈ 0.717 × font_size** — handy for sizing a background band/box around text.
+- Helvetica **cap height ≈ 0.717 × font_size**, which is handy for sizing a background band/box around text.
 
 ## Code 128 / 128B
 - **Charset is ASCII 32–127 only.** Validate at **data-load** time (not just at export) and report the
   offending row/value so the user can fix the source.
 - 128B uses **11 modules per symbol char**; total bar width = `modules × module_width`.
 - To hit a **fixed target bar width** regardless of text length, compute
-  `module_width = target_width / module_count` **per barcode** — don't hardcode a module width.
+  `module_width = target_width / module_count` **per barcode**. Don't hardcode a module width.
 - **Quiet zones are additive** (extra whitespace OUTSIDE the bars), not part of the bar width.
   Minimum 0.5" (or ≥ 10 × module width). `full_width = quiet + bars + quiet`.
 - In ReportLab, `Code128(quiet=…)` is a **boolean flag**; set `lquiet`/`rquiet` (in points) for exact
@@ -43,7 +43,7 @@ Code 128). Project-agnostic — no job/customer specifics. Distilled from real p
 ## The #1 gotcha: fill-color bleed
 - ReportLab barcodes are drawn with the **current canvas fill color**. If you set a colored fill for a
   caption and then draw the barcode, **the bars inherit that color** (e.g. navy bars instead of black).
-  Always `setFillColor(black)` immediately **before** drawing the bars. This is an easy, invisible bug —
+  Always `setFillColor(black)` immediately **before** drawing the bars. This is an easy, invisible bug:
   the PDF "looks fine" on screen but the symbology contrast/intent is wrong.
 
 ## Background bands, boxes & borders
@@ -57,7 +57,7 @@ Code 128). Project-agnostic — no job/customer specifics. Distilled from real p
 ## Data import
 - Excel/CSV: strip whitespace, skip blank/NaN (use `pandas.isna`, not `== "nan"`), stringify non-text
   cells (Excel hands back ints/floats/dates).
-- **Reset all column mappings + cached data when a new file is loaded** — stale mappings from the last
+- **Reset all column mappings + cached data when a new file is loaded**. Stale mappings from the last
   file are a classic silent corruption.
 
 ## Batch output & verification
@@ -74,5 +74,5 @@ Code 128). Project-agnostic — no job/customer specifics. Distilled from real p
 ## Packaging
 - PyInstaller one-file works, but add **hidden imports** for dynamically-loaded submodules
   (e.g. `reportlab.graphics.barcode.code128`) or the exe crashes at runtime with a missing-module error.
-- Keep label specs as **JSON templates** (one per device/label type), auto-discovered at startup —
-  specs out of code means non-developers can add/adjust label types.
+- Keep label specs as **JSON templates** (one per device/label type), auto-discovered at startup.
+  Keeping specs out of code means non-developers can add/adjust label types.
